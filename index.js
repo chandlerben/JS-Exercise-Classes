@@ -10,14 +10,14 @@
 // EXAMPLE SOLUTION CODE:
 class Airplane {
   constructor(name) {
-    this.name = name;
-    this.isFlying = false;
+    this.name = name
+    this.isFlying = false
   }
   takeOff() {
-    this.isFlying = true;
+    this.isFlying = true
   }
   land() {
-    this.isFlying = false;
+    this.isFlying = false
   }
 }
 
